@@ -2,6 +2,6 @@
 #
 #
 #
-# @within function randomizer:load
+# @within function randomizer:tick
 
-tellraw @a {"text": "[!]このバージョンではTSB Randomizer v0.1.0は動作しません、TSBv1.0.5のみ対応しています", "color": "yellow"}
+tellraw @a {"text": "[!]このバージョンではTSB Randomizer v0.2.0は動作しません、TSBv1.0.5のみ対応しています", "color": "yellow"}
