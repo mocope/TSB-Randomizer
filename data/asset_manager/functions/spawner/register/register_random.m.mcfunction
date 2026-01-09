@@ -3,6 +3,7 @@
 #
 #
 # @within function asset_manager:spawner/register/register.m
+# @patch
 
 # データを取得
     $function asset:spawner/$(ID)/register

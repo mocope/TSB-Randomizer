@@ -3,6 +3,7 @@
 #
 #
 # @within function asset_manager:container/register/register.m
+# @patch
 
 # データを取得
     $function asset:container/$(ID)/register

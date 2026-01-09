@@ -2,6 +2,7 @@
 # @input args
 #   ID: int
 # @within function world_manager:nexus_loader/try_load_asset/m
+# @patch
 
 # PosとIdのみ別で取得
     $function asset:spawner/$(ID)/register
