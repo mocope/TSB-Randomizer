@@ -11,6 +11,9 @@
     data modify storage randomizer: Block set from storage asset:container Block
     data modify storage randomizer: Pos set from storage asset:container Pos
 
+# もうデータがなければキャンセル
+    execute unless data storage randomizer: Container[-1] run return fail
+
 # pop
     data modify storage randomizer: Args.ID set from storage randomizer: Container[-1]
     data remove storage randomizer: Container[-1]

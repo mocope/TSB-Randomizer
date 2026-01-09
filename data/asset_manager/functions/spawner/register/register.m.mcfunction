@@ -10,6 +10,9 @@
     data modify storage randomizer: Block set from storage asset:spawner Block
     data modify storage randomizer: Pos set from storage asset:spawner Pos
 
+# もうデータがなければキャンセル
+    execute unless data storage randomizer: Spawner[-1] run return fail
+
 # pop
     data modify storage randomizer: Args.ID set from storage randomizer: Spawner[-1]
     data remove storage randomizer: Spawner[-1]
