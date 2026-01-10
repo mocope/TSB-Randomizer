@@ -1,9 +1,9 @@
-# TSB - Randomizer v0.2.0
+# TSB - Randomizer v0.2.1
 
 ### ※この作品はTheSkyBlessingの二次創作です
 
 ## TheSkyBlessingの対応バージョンは1.0.5です。それ以前でもそれ以降でも決して正常に動作しません！
-v1.0.0からアップデートしたワールドでバグったという報告があるので、必ずv1.0.5をダウンロードして使用してください！</br>
+必ずv1.0.5をダウンロードして使用してください！</br>
 もしv1.0.5以外のバージョンでプレイしてバグが発生した場合、サポート対象外となります
 
 ## このパッチでは1つの機能が追加されています
@@ -15,11 +15,20 @@ v1.0.0からアップデートしたワールドでバグったという報告�
 #### Randomizer v0.1.0からのアップデートには対応していません
 1. https://project-tsb.org/download からTheSkyBlessing v1.0.5(安定版)をダウンロード
 1. savesにダウンロードしたファイルの中のワールドファイルを配置
-1. savesからTheSkyBlessingのワールドファイルを開き、datapacksの中にTSB Randomizer.zipを移動する(※解凍不要)
+1. savesからTheSkyBlessingのワールドファイルを開き、datapacksの中にTSB-Randomizer-v0.2.1.zipを移動する(※解凍不要)
 1. 導入完了
+
+
+## v0.2.0からのアップデート方法
+#### Randomizer v0.1.0からのアップデートには対応していません
+1. ワールドを閉じる
+1. savesからTheSkyBlessingのワールドファイルを開き、datapacksの中のTSB-Randomizer-v0.2.0を削除する
+1. TSB-Randomizer-v0.2.1.zipを移動する
 
 
 ## 更新履歴
 0.2.0
 - 旧バージョンのチェストが出現する問題を修正
 - 初回ログイン時メッセージを追加
+0.2.1
+- 特定のコンテナを設置時にプレイが続行できなくなるバグを修正
