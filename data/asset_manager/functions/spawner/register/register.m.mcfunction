@@ -17,6 +17,7 @@
 
 # pop
     data modify storage randomizer: Args.ID set from storage randomizer: Spawner[-1]
+    data modify storage randomizer: Data.PlacedSpawner append from storage randomizer: Args.ID
     data remove storage randomizer: Spawner[-1]
 
 # ランダムなIDからデータを取得

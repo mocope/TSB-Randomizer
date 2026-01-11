@@ -18,6 +18,7 @@
 
 # pop
     data modify storage randomizer: Args.ID set from storage randomizer: Container[-1]
+    data modify storage randomizer: Data.PlacedContainer append from storage randomizer: Args.ID
     data remove storage randomizer: Container[-1]
 
 # ランダムなIDからデータを取得
