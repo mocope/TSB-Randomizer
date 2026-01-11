@@ -8,8 +8,10 @@
     $function asset:container/$(ID)/register
     # 読み込まれていなければキャンセル
         execute unless data storage asset:container ID run return fail
-    data modify storage randomizer: Block set from storage asset:container Block
-    data modify storage randomizer: Pos set from storage asset:container Pos
+    # ブロックと座標のデータだけ残し、データを削除する
+        data modify storage randomizer: Block set from storage asset:container Block
+        data modify storage randomizer: Pos set from storage asset:container Pos
+        function asset_manager:container/register/reset
 
 # もうデータがなければキャンセル
     execute unless data storage randomizer: Container[-1] run return fail

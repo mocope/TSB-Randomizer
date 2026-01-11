@@ -8,8 +8,9 @@
     $function asset:spawner/$(ID)/register
     # 読み込まれていなければキャンセル
         execute unless data storage asset:spawner ID run return fail
-    data modify storage randomizer: Block set from storage asset:spawner Block
-    data modify storage randomizer: Pos set from storage asset:spawner Pos
+    # 座標のデータだけ残しデータを削除
+        data modify storage randomizer: Pos set from storage asset:spawner Pos
+        function asset_manager:spawner/register/reset
 
 # もうデータがなければキャンセル
     execute unless data storage randomizer: Spawner[-1] run return fail
