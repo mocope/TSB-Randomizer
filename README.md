@@ -1,10 +1,8 @@
-# TSB - Randomizer v0.2.2
+# TSB - Randomizer v0.3.0
 
 ### ※この作品はTheSkyBlessingの二次創作です
 
-## TheSkyBlessingの対応バージョンは1.0.5です。それ以前でもそれ以降でも決して正常に動作しません！
-必ずv1.0.5をダウンロードして使用してください！</br>
-もしv1.0.5以外のバージョンでプレイしてバグが発生した場合、サポート対象外となります
+## TheSkyBlessingの対応バージョンは1.0.6です。それ以前でもそれ以降でも決して正常に動作しません！
 
 ## このパッチでは1つの機能が追加されています
 - 報酬とスポナーの中身がランダムに入れ替わる
@@ -12,18 +10,10 @@
 
 ## 導入方法
 #### 途中導入不可
-1. https://project-tsb.org/download からTheSkyBlessing v1.0.5(安定版)をダウンロード
+1. https://project-tsb.org/download からTheSkyBlessing v1.0.6(安定版)をダウンロード
 1. savesにダウンロードしたファイルの中のワールドファイルを配置
-1. savesからTheSkyBlessingのワールドファイルを開き、datapacksの中にTSB-Randomizer-v0.2.2.zipを移動する(※解凍不要)
+1. savesからTheSkyBlessingのワールドファイルを開き、datapacksの中にTSB-Randomizer-v0.3.0.zipを移動する(※解凍不要)
 1. 導入完了
-
-
-## v0.2.zからのアップデート方法
-#### Randomizer v0.1.0からのアップデートには対応していません
-1. ワールドを閉じる
-1. savesからTheSkyBlessingのワールドファイルを開き、datapacksの中のTSB-Randomizer-v0.2.zを削除する
-1. TSB-Randomizer-v0.2.2.zipを移動する
-
 
 ## 更新履歴
 #### 0.2.0
@@ -34,3 +24,5 @@
 #### 0.2.2
 - 元のコンテナにLootTableが設定されていると中身が固定のコンテナを上書きするバグを修正
 - 設置されたコンテナやスポナーのIDを記録する処理を追加</br>
+#### 0.3.0
+- TSBv1.0.6に対応
