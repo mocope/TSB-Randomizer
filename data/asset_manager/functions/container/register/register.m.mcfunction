@@ -8,6 +8,7 @@
     $function asset:container/$(ID)/register
     # 読み込まれていなければキャンセル
         execute unless data storage asset:container ID run return fail
+        execute if data storage asset:container {ID: 2688} run return fail
     # ブロックと座標のデータだけ残し、データを削除する
         data modify storage randomizer: Block set from storage asset:container Block
         data modify storage randomizer: Pos set from storage asset:container Pos
